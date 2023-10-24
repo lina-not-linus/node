@@ -113,3 +113,8 @@ test-cluster-primary-error: PASS, FLAKY
 [$arch==s390x]
 # https://github.com/nodejs/node/issues/50222
 test-inspector-async-hook-setup-at-inspect-brk: PASS, FLAKY
+
+[$arch==loong64]
+test-crypto-sign-verify: SKIP
+test-vm-global-setter: SKIP
+test-vm-module-synthetic: SKIP
